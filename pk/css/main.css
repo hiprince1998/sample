@@ -238,7 +238,7 @@ nav ul li a:hover{
 }
 
 .exit-btn{
-text-align: right;
+text-align:left;
 margin-bottom: 1em;
 margin-top: -2em;
 
@@ -249,8 +249,8 @@ width: 15px;
 cursor: pointer;
 }
 .container{
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 0;
 }
 
 @media only  screen and (min-width:650px){
