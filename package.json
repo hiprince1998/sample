@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "this is my first time i am using this.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d pk"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://hiprince1998.github.com/sample",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
