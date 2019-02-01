@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        <img src="image/logo.svg" alt="" class="logo">
+
+        <nav >
+            <a href="#" class="hide-desktop">
+                <img src="image/ham.svg" alt="toggle menu" class="menu" id="menu">
+            </a>
+            <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop"> <img src="image/exit.svg" alt=""></li>
+                <li><a href="#nav">home</a></li>
+                <li><a href="#blue">service</a></li>
+                <li><a href="#gray">about</a></li>
+                <li><a href="#footer">contact</a></li>
+ 
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="server">
+        <img src="image/server.svg" alt="server" class="server">
+        <h1>
+            Web hosting for the modern era
+        </h1>
+        <p class="subhead">Go serverless and pay only you use</p>
+        <img src="image/scroll.svg" alt="scroll" class="scroll hide-mobile show-desktop">
+    </section>
+ </div>
+
+ <div class="blue-container" id="blue">
+     <div class="container">
+         <ul>
+        <li><img src="image/icon-1.svg" alt="" >
+        <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, ut? </p>
+        </li>
+        <li><img src="image/icon-2.svg" alt="" >
+            <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, ut? </p>
+            </li>
+            <li><img src="image/icon-3.svg" alt="" >
+                <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, ut? </p>
+                </li>
+          </ul>
+     </div>
+ </div>
+<div class="gray-container" id="gray">
+    <div class="container">
+        <ul>
+            
+            <li>
+                    <figure><img src="image/user1.png" alt="picture">
+            <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, unde.</blockquote>
+            <figcaption>- Lora</figcaption>
+        </figure>
+        </li>
+        <li>
+        <figure>
+                <img src="image/user2.png" alt="picture">
+                <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, unde.</blockquote>
+                <figcaption>- John Doe</figcaption>
+            </figure>
+        </li>
+        </ul>
+    </div>
+</div>
+
+<div class="container-footer">
+    <h2>Start Your free Trial Now!</h2>
+    <a href="#" class="cta">Get Started</a>
+</div>
+<footer id="footer">
+    <div class="footer">
+        <div class="footer-container">
+            <a href="#">
+                <img src="image/logo-white.svg" class="logo" alt="">
+            </a>
+                <p class="address">Faridabad haryana</p>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+           
+        </div>
+    </div>
+</footer>
+
+<script>
+var menu = document.getElementById('menu');
+var nav = document.getElementById('nav');
+var exit = document.getElementById('exit');
+
+menu.addEventListener('click',function(e){
+    nav.classList.toggle('hide-mobile');
+    e.preventDefault();
+})
+
+exit.addEventListener('click',function(e){
+    nav.classList.toggle('hide-mobile');
+e.preventDefault();
+})
+
+
+</script>
+</body>
+
+</html>
